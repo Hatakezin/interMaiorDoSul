@@ -1,0 +1,221 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0;;
+  }
+  
+
+#container {
+    display: flex;
+    flex: 1;
+}
+
+#inter {
+    flex:auto;
+    width: 100%;
+    height: 100%;
+}
+
+#gremio {
+    flex:auto;
+    width: 100%;
+    height: 100%;
+}
+
+.inter_Titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ff0000, white);
+}
+
+.inter_Titulo img {
+        display: block;
+                
+        width: auto; /* Largura de 30% da div */
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura original */
+            
+        height: 70%; /* Ajustar a altura automaticamente de acordo com a largura */
+        margin-top: 10px; /* Adicione um espaço acima da imagem */
+
+        margin-top: 0px;
+}
+
+.inter_Titulo h1 {
+    display: block;
+    font-size: 200%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.inter_Titulo h3 {
+    display: block;
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#conteudoInter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+#conteudoInter p {
+    color: red;
+    flex: 1;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#conteudoInter img {
+    flex: 1;
+    width: 100%; /* Faz a imagem ocupar toda a largura do conteúdo */
+    height: 100%; /* Faz a imagem ocupar toda a altura restante do conteúdo */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço */
+    object-position: bottom;
+    
+}
+
+#p2 {
+    color: white;
+    flex: 1;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#inter {
+    flex:auto;
+    width: 100%;
+    height: 100%;
+}
+
+#gremio {
+    flex:auto;
+    width: 100%;
+    height: 100%;
+}
+
+.inter_Titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ff0000, white);
+}
+
+.inter_Titulo img {
+    display: block;
+            
+    width: auto; /* Largura de 30% da div */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura original */
+        
+    height: 70%; /* Ajustar a altura automaticamente de acordo com a largura */
+    margin-top: 10px; /* Adicione um espaço acima da imagem */
+
+    margin-top: 0px;
+}
+
+.inter_Titulo h1 {
+    display: block;
+    font-size: 200%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.inter_Titulo h3 {
+    display: block;
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#conteudoGremio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+#conteudoGremio p {
+    color: red;
+    flex: 1;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#conteudoGremio img {
+    flex: 1;
+    width: 100%; /* Faz a imagem ocupar toda a largura do conteúdo */
+    height: 100%; /* Faz a imagem ocupar toda a altura restante do conteúdo */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço */
+    object-position: top;
+    
+}
+
+#p2 {
+    color: white;
+    flex: 1;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.Gremio_Titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(to bottom, blue, white);
+}
+
+.Gremio_Titulo img {
+        display: block;
+                
+        width: auto; /* Largura de 30% da div */
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura original */
+            
+        height: 70%; /* Ajustar a altura automaticamente de acordo com a largura */
+        margin-top: 10px; /* Adicione um espaço acima da imagem */
+
+        margin-top: 0px;
+}
+
+.Gremio_Titulo h1 {
+    display: block;
+    font-size: 200%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.Gremio_Titulo h3 {
+    display: block;
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
